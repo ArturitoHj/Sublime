@@ -45,26 +45,14 @@ public class rectangulo
 		}
                 JOptionPane.showMessageDialog(null, cuadro);
 	}
-	/*public double obtenerancho()
-	{
- 		return ancho;     
-	}
-	public double obtenerlongitud()
-	{
-		return longitud;
-                
-	}*/
-
 	
-
 	public static void main(String[] args)
 	{
 		rectangulo rec1=new rectangulo();
 		rec1.leerdatos();
 		rec1.perimetro();
 		rec1.area();
-                /*rec1.obtenerancho();
-		rec1.obtenerancho();
-                rec1.obtenerlongitud();*/
+		//hola
+                
 	}
 }
